@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load staticfiles %}
+    <title>Title</title>
+</head>
+<body style="margin: 0;padding: 0">
+<h1>hello{{ time }}</h1>
+<!--<script src="/static/jquery-3.3.1.js"></script>>-->
+<script src={% static 'jquery-3.3.1.js' %}></script>
+<script>
+    $('h1').css('color','red')
+</script>
+</body>
+</html>
