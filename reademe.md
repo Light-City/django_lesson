@@ -111,7 +111,7 @@ def register(request):
 
 ```
 
-5.路由分发
+## 5.路由分发
 
 ```python
 1.在blog应用里面新建一个urls.py
@@ -144,6 +144,6 @@ urlpatterns = [
     url(r'blog/',include('blog.urls')),
 ]
 
-## 3.必须加上blog才可访问到，访问：http://127.0.0.1:8088/blog/register
+3.必须加上blog才可访问到，访问：http://127.0.0.1:8088/blog/register
 
 ```
